@@ -19,7 +19,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: vault-helm
+      chart: "vault-helm"
       version: "0.20.1"
       sourceRef:
         kind: HelmRepository
