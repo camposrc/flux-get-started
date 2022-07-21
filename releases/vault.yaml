@@ -19,7 +19,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: "vault-helm"
+      chart: "hashicorp/vault"
       version: "0.20.1"
       sourceRef:
         kind: HelmRepository
