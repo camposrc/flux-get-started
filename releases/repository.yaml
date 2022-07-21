@@ -6,4 +6,4 @@ metadata:
   namespace: vault
 spec:
   interval: 1m0s
-  url: https://github.com/hashicorp/vault-helm
+  url: https://helm.releases.hashicorp.com
