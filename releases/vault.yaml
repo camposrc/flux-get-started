@@ -10,19 +10,19 @@
 #    name: vault
 #    version: 0.20.1
 
-apiVersion: helm.toolkit.fluxcd.io/v2beta1
-kind: HelmRelease
-metadata:
-  name: vault
-  namespace: vault
-spec:
-  interval: 1m
-  chart:
-    spec:
-      chart: vault-helm
-      version: "0.20.1"
-      sourceRef:
-        kind: HelmRepository
-        name: hashicorp
-        namespace: vault
-      interval: 1m
+# apiVersion: helm.toolkit.fluxcd.io/v2beta1
+# kind: HelmRelease
+# metadata:
+#   name: vault
+#   namespace: vault
+# spec:
+#   interval: 1m
+#   chart:
+#     spec:
+#       chart: vault-helm
+#       version: "0.20.1"
+#       sourceRef:
+#         kind: HelmRepository
+#         name: hashicorp
+#         namespace: vault
+#       interval: 1m
